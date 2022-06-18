@@ -1,4 +1,4 @@
-## Welcome to Bingfeng Pi's pages
+## Welcome to Bingfeng Pi's home
 
 You can use the [editor on GitHub](https://github.com/winterpi/winterpi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
