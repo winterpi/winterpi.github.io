@@ -4,6 +4,7 @@
 - 👋 Hi, I'm Bingfeng Pi, my English name is Winter. I like this name:)
 - 👀 I have 6+ years experience with Blockchain. I'm interested in blockchain & distributed netowrk related technologies & projects, such as [Hyperledger Fabric](https://github.com/hyperledger/fabric), [Hyperledger Indy](https://github.com/hyperledger/indy-node), [Hyperledger Firefly](https://github.com/hyperledger/firefly), IPFS etc. 
 - You can get to know more about me with [my blogs](https://www.jianshu.com/u/e9bee1674dac). 
+- If you're intrested with me, please contact me with pi.bingfeng at gmail.com
 
 
 ### Current learning
@@ -15,13 +16,29 @@
 - 2000/09-2004/07: [Harbin Engineering University](http://www.hrbeu.edu.cn/), Bachelor Degree
 
 ### My work experiences
-#### 2022/03-now:  Suzhou Juhe Data
+#### 2022/03-now：  Suzhou Juhe Data
+- Period 1: Lead and implement a basic blockchain BaaS platform, which provides one-click deployment for Hyperledger Fabric.
 
 #### 2010/05-2022/02： Fujitsu R&D Center Suzhou Laboratory
-- Project 1
-- Project 2
-#### 2007/04-2010/04:   Roboo Mobile Search Engine (Suzhou)
+- Period 1: Lead our team members to conduct blockchain related researches, e.g.
+1. Blockchain scalability improvements (performance enhancement, storage expansion);
+2. Blockchain network management & optimization;
+3. Ledger data analysis and tracking;
+4. Smart contract risk detection;
+##### We have made and published 2 blockchain related OSS projects:
+1. [Chaincode Analyzer](https://github.com/FujitsuLaboratories/ChaincodeAnalyzer)
+2. [Ledger Data Refiner](https://github.com/FujitsuLaboratories/Ledger-Data-Refiner)
 
+- Period 2: Work with our members to develop automatic testing for mobile apps, including functional testing, compatibility testing and crowdsourcing testing.
+
+- Period 3: Investigate and conduct BRMS (Business Rule Management System) based automatic testing. Research on data mashup based on web APIs, and implement projects related with data integration of different applications
+
+#### 2007/04-2010/04： Roboo Mobile Search Engine (Suzhou)
+- Period 1: Work with our members to implement distributed web crawling & data processing, e.g. Hadoop based web crawler, Mapreduce based data processing & logs analysis.
+
+- Period 2: Responsible for web page crawling & content analysis;
+1. web page classification & duplicate detection;
+2. User behavior analysis and recommendation.
 
 
 ### My papers
