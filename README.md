@@ -1,37 +1,29 @@
 ## Welcome to Bingfeng Pi's home
 
-You can use the [editor on GitHub](https://github.com/winterpi/winterpi.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Basic info 
+- 👋 Hi, I'm Bingfeng Pi, my English name is Winter. I like this name:)
+- 👀 I have 6+ years experience with Blockchain. I'm interested in blockchain & distributed netowrk related technologies & projects, such as [Hyperledger Fabric](https://github.com/hyperledger/fabric), [Hyperledger Indy](https://github.com/hyperledger/indy-node), [Hyperledger Firefly](https://github.com/hyperledger/firefly), IPFS etc. 
+- You can get to know more about me with [my blogs](https://www.jianshu.com/u/e9bee1674dac). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Current learning
+- 🌱 I'm learning an immutable database project, [immudb](https://github.com/codenotary/immudb). It keeps data's integrity with Merkle Tree proof and also provide proof verification for both KV data and also SQL data.
+- 💞️ [Hyperledger Firefly](https://github.com/hyperledger/firefly) is another project I'm trying to learning. With Firefly, it's easy to develop Dapps for Web3 or NFT, and also useful for testing of Fabric chaincode. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### My education
+- 2004/09-2007/04: [Huazhong University of Science & Technology](https://www.hust.edu.cn/), Master Degree
+- 2000/09-2004/07: [Harbin Engineering University](http://www.hrbeu.edu.cn/), Bachelor Degree
 
-```markdown
-Syntax highlighted code block
+### My work experiences
+#### 2022/03-now:  Suzhou Juhe Data
 
-# Header 1
-## Header 2
-### Header 3
+#### 2010/05-2022/02： Fujitsu R&D Center Suzhou Laboratory
+- Project 1
+- Project 2
+#### 2007/04-2010/04:   Roboo Mobile Search Engine (Suzhou)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### My papers
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/winterpi/winterpi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
