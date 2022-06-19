@@ -42,17 +42,17 @@
 
 
 ### My papers
-• Bingfeng Pi, Ence Zhou, Yeda Pan. (2021). "xFabLedger: Extensible Ledger Storage for Hyperledger Fabric".
-• Shenbin Zhang, Song Hua, Bingfeng Pi. (2020). "Performance Diagnosis and Optimization for Hyperledger Fabric". In: the 2nd Conference on Blockchain Research
-& Applications for Innovative Networks and Services (BRAINS), IEEE, 2020.
-• Shenbin Zhang, Ence Zhou, Bingfeng Pi. (2019). "A Solution for the Risk of Nondeterministic Transactions in Hyperledger Fabric". In: IEEE International Conference on Blockchain and Cryptocurrency (ICBC), IEEE, 2019.
-• Ence Zhou, Haoli Sun, Bingfeng Pi. (2019). "Ledgerdata Refiner: A Powerful Ledger Data Query Platform for Hyperledger Fabric". In: the 6th International
-Conference on Internet of Things: Systems, Management and Security (IOTSMS), IEEE, 2019.
-• Song Hua, Ence Zhou, Bingfeng Pi. (2018). "Apply blockchain technology to electric vehicle battery refueling". In: Proceedings of the 51st Hawaii International
-Conference on System Sciences (HICSS), 2018.
-• Ence Zhou, Song Hua, Bingfeng Pi. (2018). "Security Assurance for Smart Contract". In: the 9th IFIP International Conference on New Technologies, Mobility
-and Security (NTMS), IEEE, 2018.
-• Bingfeng Pi, Gang Zou. (2012). "Flow Editor: Semantic Web Service Composition Tool". In: the 9th International Conference on Services Computing (SCC), IEEE,
-2012.
-• Bingfeng Pi, Shunkai Fu. (2008). "Query-biased Near Duplicate Web Document Detecting: Effective, Efficient and Customizable". In: (DMIN), 2008.
+- Bingfeng Pi, Ence Zhou, Yeda Pan. (2021). [xFabLedger: Extensible Ledger Storage for Hyperledger Fabric](https://ieeexplore.ieee.org/document/9463838/)
+- Ence Zhou, Bingfeng Pi, Jun Sun. [Performance Improvement by Using Pipelined Execution on Hyperledger Fabric](https://scholarspace.manoa.hawaii.edu/items/25cf4229-543e-4234-bae6-b4497ddc747d). HICSS 2022: 1-10
+- Haoli Sun, Bingfeng Pi, Jun Sun. [SASLedger: A Secured, Accelerated Scalable Storage Solution for Distributed Ledger Systems](). Future Internet 13(12): 310 (2021)
+- Yeda Pan, Bingfeng Pi, Jun Sun: [Plume: Fast Finality Blockchain without Single Failure Point](). ASSE 2021: 18-27
+- Shenbin Zhang, Song Hua, Bingfeng Pi. [Performance Diagnosis and Optimization for Hyperledger Fabric](). BRAINS 2020: 210-211
+- Song Hua, Shenbin Zhang, Bingfeng Pi. [Reasonableness discussion and analysis for Hyperledger Fabric configuration](). IEEE ICBC 2020: 1-3
+- Shenbin Zhang, Ence Zhou, Bingfeng Pi. [A Solution for the Risk of Nondeterministic Transactions in Hyperledger Fabric]().  IEEE ICBC 2019: 253-261
+- Ence Zhou, Haoli Sun, Bingfeng Pi. [Ledgerdata Refiner: A Powerful Ledger Data Query Platform for Hyperledger Fabric](). IoTSMS 2019: 433-440
+- Haoli Sun, Song Hua, Ence Zhou, Bingfeng Pi. [Using Ethereum Blockchain in Internet of Things: A Solution for Electric Vehicle Battery Refueling](). ICBC 2018: 3-17
+- Song Hua, Ence Zhou, Bingfeng Pi. [Apply blockchain technology to electric vehicle battery refueling](). HICSS 2018: 1-9
+- Ence Zhou, Song Hua, Bingfeng Pi.[Security Assurance for Smart Contract]().NTMS 2018: 1-5
+- Bingfeng Pi, Gang Zou. [Flow Editor: Semantic Web Service Composition Tool](). IEEE SCC 2012: 666-667
+- Bingfeng Pi, Shunkai Fu. [Query-biased Near Duplicate Web Document Detecting: Effective, Efficient and Customizable]().DMIN 2008: 654-659
 
