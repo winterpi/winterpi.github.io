@@ -42,5 +42,17 @@
 
 
 ### My papers
-
+• Bingfeng Pi, Ence Zhou, Yeda Pan. (2021). "xFabLedger: Extensible Ledger Storage for Hyperledger Fabric".
+• Shenbin Zhang, Song Hua, Bingfeng Pi. (2020). "Performance Diagnosis and Optimization for Hyperledger Fabric". In: the 2nd Conference on Blockchain Research
+& Applications for Innovative Networks and Services (BRAINS), IEEE, 2020.
+• Shenbin Zhang, Ence Zhou, Bingfeng Pi. (2019). "A Solution for the Risk of Nondeterministic Transactions in Hyperledger Fabric". In: IEEE International Conference on Blockchain and Cryptocurrency (ICBC), IEEE, 2019.
+• Ence Zhou, Haoli Sun, Bingfeng Pi. (2019). "Ledgerdata Refiner: A Powerful Ledger Data Query Platform for Hyperledger Fabric". In: the 6th International
+Conference on Internet of Things: Systems, Management and Security (IOTSMS), IEEE, 2019.
+• Song Hua, Ence Zhou, Bingfeng Pi. (2018). "Apply blockchain technology to electric vehicle battery refueling". In: Proceedings of the 51st Hawaii International
+Conference on System Sciences (HICSS), 2018.
+• Ence Zhou, Song Hua, Bingfeng Pi. (2018). "Security Assurance for Smart Contract". In: the 9th IFIP International Conference on New Technologies, Mobility
+and Security (NTMS), IEEE, 2018.
+• Bingfeng Pi, Gang Zou. (2012). "Flow Editor: Semantic Web Service Composition Tool". In: the 9th International Conference on Services Computing (SCC), IEEE,
+2012.
+• Bingfeng Pi, Shunkai Fu. (2008). "Query-biased Near Duplicate Web Document Detecting: Effective, Efficient and Customizable". In: (DMIN), 2008.
 
