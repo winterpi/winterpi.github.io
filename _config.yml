@@ -1,1 +1,8 @@
 remote_theme: sighingnow/jekyll-gitbook
+
+# https://github.com/gitalk/gitalk#install
+gitalk:
+  owner: winterpi
+  repo: blog-comments
+  clientID: b902c4150c01b5ab9bb4
+  clientSecret: bbe8efb3af10421a83734f8ddde4133fce283490
