@@ -1,0 +1,60 @@
+--
+title: 隐私求交的技术衍化
+date: 2023-02-27
+--
+
+## 什么是隐私求交
+- 隐私求交（Private Set Intersection，PSI），顾名思义，是求解双方(或多方)集合的交集数据，而不透漏交集以外的任何数据信息。
+- 一般情况下，都是研究基于两方的隐私求交，可基于数据集的大小，区分大数据集和小数据集，或是非对称数据集。
+
+## 隐私求交的几种典型方法
+- 从衍化路径上来看，目前有以下几种PSI的方案。
+
+### 基于 hash 的纯粹PSI
+- **思路**：即对双方的数据元素分别进行哈希运算，将数据集的交集转换成哈希值的交集。
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/89500827/221486332-7c6e9bcb-c562-4435-934d-ff78f63449fb.png" width=500>
+</p>
+
+- **优点**：思路简单，速度快；
+- **缺点**：如果𝑥𝑖,𝑦𝑖是随机string，这个方案是可行的； 但如果𝑥𝑖,𝑦𝑖是类似ID之类的信息，就很容易猜出来；
+
+### 基于 DH密钥交换（Diffie-Hellman key exchange ）的PSI
+- **思路**：采用密钥交换的思想，对双方的数据元素进行加密处理，之后求交集；
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/89500827/221487171-e48ced8c-50ea-475a-bc0d-7ac5e8f1360f.png" width=600>
+</p>
+
+- **优点**：数据的安全性得到了保障；
+- **缺点**：
+  - 涉及大量的指数运算，计算成本比较高；
+  - 需要额外的密钥管理，当多个参与方加入时，密钥管理是一个挑战；
+  - 无法处理动态变化的数据集，当集合发生变化时，需要重新计算；
+
+
+### 基于不经意伪随机函数（Oblivious Pseudo Random Function, OPRF）的PSI
+- 不经意伪随机函数的定义及来源，参考[之前的博客-不经意伪随机函数](https://www.jianshu.com/p/2d66e2f7bc36)
+- **思路**：采用OPRF的方式，使得求交集的双方数据信息都得到保护；
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/89500827/221488803-72666cfc-5588-4a37-9436-a57427f3f150.png" width=600>
+</p>
+
+- **缺点**：正如图中所示，运算复杂度为O(N^2).
+
+### 基于布谷鸟哈希（Cuckoo hash）改进的OPRF 的PSI
+- 布谷鸟哈希的思想：借用了“鸠占鹊巢”的思想，如果某个数据hash之后发现位置被别人占据了，就把对方踢出去；
+- 布谷鸟哈希的原理：采用了两个哈希函数，及两个哈希桶来存储数据，所以数据存储的位置有一定的不确定性；
+- 布谷鸟哈希的demo：http://www.lkozma.net/cuckoo_hashing_visualization/
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/89500827/221494495-e94fb2eb-09e8-4975-8864-9358616f54a3.png" width=600>
+</p>
+
+- 核心思想：采用Cuckoo hash + simple hash结合的方式，将双方的数据归属到不同的 bin 桶中，进而再比对 bin 桶内的数据，快速求交集；
+
+## 隐私求交的应用
+- PSI是安全多方计算中的一个重要分支，具有广泛的应用前景，如隐私保护的位置信息共享，在线广告的有效转换率衡量，以及基因序列的比对等。
+
+## References:
+1. [安全多方计算5-隐私集合求交方案汇总分析](http://blog.nsfocus.net/private-set-intersection-analysis/)
+2. [隐私计算基础理论-安全求交集和匿踪查询](https://www.bilibili.com/video/BV1oW4y1H7rL/) 段普老师很靠谱:)
