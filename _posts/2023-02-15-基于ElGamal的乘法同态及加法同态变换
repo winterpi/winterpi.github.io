@@ -1,0 +1,51 @@
+---
+title: 基于ElGamal的乘法同态及加法同态变换
+D
+---
+
+## ElGamal 算法由来
+- ElGamal 算法是由 Tather ElGamal 于1985年提出来的，它是一种基于Discrete Logarithm Problem (离散对数难题) 的加密体系。
+- ElGamal 可以用于加解密，也可以用于签名。
+
+## ElGamal 的加解密方法
+### 密钥生成
+- 秘密信息接收方 Alice 基于一个安全的循环群 G 生成；
+<p align=center>
+    <img src="https://user-images.githubusercontent.com/89500827/220237879-87f3fd09-1d19-4189-915c-0e83e2d7f5db.png" width=400>
+</p>
+
+### 加密过程
+- 发送方 Bob 对秘密信息 m 进行加密处理，**_m 需要提前被映射为 G 上的一个元素_**
+- 为了保证安全，Bob 最好每次都重新选择一个 y
+<p align=center>
+    <img src="https://user-images.githubusercontent.com/89500827/220237952-ad8a55e4-6712-4947-a354-fdfffac8a2ca.png" width=500>
+</p>
+
+### 解密过程
+- Alice 接收到 (C1, C2)之后，进行解密
+<p align=center>
+    <img src="https://user-images.githubusercontent.com/89500827/220238028-54c754c9-b534-4b12-a326-3fac3f1e797d.png" width=500>
+</p>
+
+## ElGamal 的签名及验签
+- Alice 发送消息 m 给 Bob， Bob确认消息签名的正确性
+
+![图片7](https://user-images.githubusercontent.com/89500827/220239973-6eceee91-f7fe-419f-bde7-1a38a55c846b.png)
+
+## 基于ElGamal 的同态乘法
+- ElGamal 的加密满足乘法同态
+![图片8](https://user-images.githubusercontent.com/89500827/220242486-b1736c8c-6507-4d1e-9880-fcc304ea8bb6.png)
+
+### 转换成加法同态
+- 将 m 编码为 g^m，对 g^m 进行加密；
+- 则 m*n 就相应变为 g^(m+n)，满足加法同态；
+- **优势**：性能上比 Paillier 要好一些；
+- **局限性**：解密时需要将 g^m 解码为m，需要求离散对数，所以一般只适用于 m 较小的场合（可以查表）;
+
+![微信图片_20230221115423](https://user-images.githubusercontent.com/89500827/220243633-bf54e912-8185-4976-a11c-ca8600151558.jpg)
+
+
+
+## Reference
+1. 百度百科 ElGamal: https://baike.baidu.com/item/Elgamal/856288
+2. 公钥加密算法 ElGamal: http://rangerway.com/way/public-key-one-elgamal
