@@ -1,6 +1,6 @@
 remote_theme: sighingnow/jekyll-gitbook
-toc:
-    enabled: true
+#toc:
+#    enabled: true
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
