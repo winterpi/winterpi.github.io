@@ -2,7 +2,7 @@ remote_theme: sighingnow/jekyll-gitbook
 #toc:
 #    enabled: true
 
-url: 'https://winterpi.github.io/'
+url: 'https://github.com/winterpi/blog'
 
 
 # https://github.com/gitalk/gitalk#install
