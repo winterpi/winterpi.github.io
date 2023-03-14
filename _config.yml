@@ -2,8 +2,8 @@ remote_theme: sighingnow/jekyll-gitbook
 #toc:
 #    enabled: true
 
-url:              'https://winterpi.github.io/'
-baseurl:          '/blog'
+url: 'https://winterpi.github.io/'
+
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
