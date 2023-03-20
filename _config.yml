@@ -4,7 +4,7 @@ remote_theme: sighingnow/jekyll-gitbook
 
 url: 'https://github.com/winterpi/blog'
 
-disqushandler: "皮皮"
+# disqushandler: "皮皮"
 
 # https://github.com/gitalk/gitalk#install
 gitalk:
