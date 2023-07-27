@@ -4,8 +4,8 @@ remote_theme: sighingnow/jekyll-gitbook
 
 # url: 'https://github.com/winterpi/blog'
 
-url:              'https://github.com/winterpi'
-baseurl:          '/blog'
+url: 'https://github.com/winterpi'
+baseurl:  '/blog'
 
 # disqushandler: "皮皮"
 
