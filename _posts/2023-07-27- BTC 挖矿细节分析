@@ -1,0 +1,30 @@
+
+
+## 记录原因
+&#160; &#160; &#160; &#160; 前两天参加了一个区块链的技术分享会，是一个大学的老师讲解区块链，将区块链的前因后果娓娓道来。虽然前面的区块链的数据结构之类的我都听过，但后续讲解了BTC的挖矿细节，这些都是我之前未曾仔细琢磨的，以及及web3、DAO、DeFi等一些新的进展，让我耳目一些。
+&#160; &#160; &#160; &#160; 这里先把BTC的挖矿细节整理下。
+
+## BTC 挖矿
+&#160; &#160; &#160; &#160; 随便搜搜，就能发现很多文章介绍BTC挖矿大约10分钟一个块，而ETH大约13秒出一个块。而BTC保持每2016个区块后就会调整一下挖矿的难度系数，折算下( 2016 * 10分钟) / (24 * 60分钟) = 14 天，所以基本是2周左右就要调整一次。
+
+### 挖矿的过程
+&#160; &#160; &#160; &#160; 挖矿难度是根据 block header 的哈希调整的，如下图所示：
+
+<p align="center">
+     <img src="https://github.com/winterpi/blog/assets/89500827/77b8605d-49f3-4bae-ac5a-d312ba26b8a0" width=500>
+</p>
+
+- block header 中包括前一个区块的hash、BTC 的版本信息、时间戳 timestamp、当前的挖矿难度、**_可随机调整的 Nonce 值_**、以及**当前区块所包含交易的 Merkle root** 。
+- 将 block header 进行 SHA-256 哈希之后，如果其 hash 的结果满足前面 n 位为0，后续（256-n）位的值小于等于指定的挖矿难度，就确认已经挖到区块了。
+- 如果不满足，需要**调整 Nonce 值**，但 Nonce 值只有 4Bytes (32 bit)，调整范围有限，如果不满足，也可以调整**调整 CoinBase中的 nonce 以修改 Merkle root** 
+
+### CoinBase 与 Merkle Tree 
+&#160; &#160; &#160; &#160;  Merkle Tree 的结构如下：
+<p align="center">
+      <img src="https://github.com/winterpi/blog/assets/89500827/3f1807f5-230f-4962-bd0e-0d1355bb3154" width =500>
+</p>
+
+其中 CoinBase 是作为 Tree 底层的第一个交易：
+- CoinBase 的数据长度最小是 2 个byte，最大是 100 bytes;
+- **_除了最开始的几个字节之外，后续的字节可以随意填充_**，可以看作是 Nonce 值；
+- CoinBase 的 nonce 值的变动，会导致 Merkle root 的变动，进而影响到整个 block header 的哈希值。
