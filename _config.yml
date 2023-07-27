@@ -2,7 +2,10 @@ remote_theme: sighingnow/jekyll-gitbook
 #toc:
 #    enabled: true
 
-url: 'https://github.com/winterpi/blog'
+# url: 'https://github.com/winterpi/blog'
+
+url:              'https://github.com/winterpi'
+baseurl:          '/blog'
 
 # disqushandler: "皮皮"
 
