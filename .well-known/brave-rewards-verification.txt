@@ -1,4 +1,0 @@
-This is a Brave Creators publisher verification file.
-
-Domain: winterpi.github.io
-Token: 65b0a374cb6aa8551ee83a4cdfc3963a6e5cc183198b786c19e8b7d1631311a7
